@@ -1,0 +1,13 @@
+@use "../partials/typography";
+@use "../partials/mixins" as *;
+
+*,
+* ::before,
+* ::after {
+  box-sizing: border-box;
+  font-family: "DM Sans";
+}
+
+body {
+  margin: 0;
+}
